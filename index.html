@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/styles/styles.css" />
+  <title>SEO com dados estruturados (Schema.org)</title>
+</head>
+
+<body>
+  <h1 class='top'>SEO com dados estruturados (Schema.org)</h1>
+
+  <h2 class='session'>Servindo dados para um serviço</h2>
+
+  <section class="service">
+    
+    <article class='item-service' itemscope itemtype="http://schema.org/Service">
+      <img itemprop="image" src="/src/imagens/design.png" title="Design responsivo" alt="Design responsivo" src="" />
+      <h1 itemprop="name">Design responsivo</h1>
+      <h2 itemprop="description"> Seu projeto em qualquer dispositivo independentemente do tamanho da tela ou resolução. Com os conceitos da
+        ONE WEB (ETHAN MARCOTTE), com o mesmo conteúdo seu projeto se adaptará a todas as telas existente. </h2>
+      </article>
+
+  </section>
+
+
+  <h2 class='session'>Servindo dados para um artigo</h2>
+
+  <section class="article">
+
+
+    <article class="item-article" itemscope itemtype="https://schema.org/NewsArticle">
+
+      <a itemprop="url" href="https://www.casadossites.com/noticia/site-e-fan-page-descubra-a-melhor-opcao-para-sua-empresa"
+        title="Site e Fan page: Descubra a melhor opção para sua empresa.">
+       
+        <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+          <meta itemprop="height" content="418">
+          <meta itemprop="width" content="800">
+          <meta itemprop="url" content="https://www.casadossites.com/gestao/imagens_site/noticia/2019/01/site-e-fan-page-descubra-a-melhor-opcao-para-sua-empresa.jpg" title="Site e Fan page: Descubra a melhor opção para sua empresa.">
+        <img
+          src="https://www.casadossites.com/gestao/imagens_site/noticia/2019/01/site-e-fan-page-descubra-a-melhor-opcao-para-sua-empresa.jpg"
+          title="Site e Fan page: Descubra a melhor opção para sua empresa."
+          alt=" capa: Site e Fan page: Descubra a melhor opção para sua empresa." />
+        </div>
+
+        <h1 itemprop="headline">Site e Fan page: Descubra a melhor opção para sua empresa.</h1>
+        <h2 itemprop="description"> Existem diversas maneiras de gerar popularidade e reconhecimento para uma empresa, seja através de
+          comerciais de tv ou radio, anúncios pagos, criando um site e até mesmo atravé... </h2>
+        
+        <div class="ds-none">
+         <span class="ds-none" itemprop="datePublished">2019-01-25</span>
+               <span class="ds-none" itemprop="dateModified">2019-01-25</span>
+               <span class="ds-none" itemprop="author">Casa dos Sites - Criação de Sites em Manaus, Loja Virtual em Manaus, Hospedagem de Sites</span>
+               <div class="ds-none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                  <div class="ds-none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+                     <meta itemprop="url" content="https://www.casadossites.com/imagens_site/logo3.png">
+                  </div>
+                  <span itemprop="name">Casa dos Sites - Criação de Sites em Manaus, Loja Virtual em Manaus, 
+                    Hospedagem de Sites</span>
+               </div>
+               <span class="ds-none" itemprop="articleBody">Existem diversas maneiras de gerar popularidade e 
+                 reconhecimento para uma empresa, seja através de comerciais de tv ou radio, anúncios pagos, 
+                 criando um site e até mesmo através das redes sociais.</span>
+        </div>
+      </a>
+
+    </article>
+
+
+  </section>
+  <h2 class='session'>Servindo dados para uma empresa</h2>
+
+  <section class="company">
+
+    <div class="ds-none" itemscope itemtype="https://schema.org/Organization">
+      <span itemprop="name">Casa dos Sites - Criação de Sites em Manaus, Loja Virtual em Manaus, Hospedagem de Sites</span>
+      
+      <img itemprop="logo" title="Casa dos Sites - Criação de Sites em Manaus, Loja Virtual em Manaus, Hospedagem de Sites"
+        alt="Casa dos Sites - Criação de Sites em Manaus, Loja Virtual em Manaus, Hospedagem de Sites"
+        src="https://www.casadossites.com/imagens_site/logo3.png" />
+      
+      <span itemprop="description">A casa dos sites e líder em criação de sites em Manaus, criando sites e sistemas online, com isso alcançando
+        o resultado que o cliente deseja e espera.</span>
+
+      <span itemprop="telephone">+55 92 3641-1519</span>
+      <span itemprop="telephone">+55 92 99248-3522</span>
+      <span itemprop="telephone">+55 92 98180-1604</span>
+
+      <span itemprop="email">contato@casadossites.com</span>
+      <a itemprop="sameAs" title="Nosso Site" target="_blank" href="https://www.casadossites.com/">Nosso Site</a>
+      <a itemprop="sameAs" title="Facebook" target="_blank" href="https://www.facebook.com/casadossitesam">Curta no Facebook</a>
+      <a itemprop="sameAs" title="Twitter" target="_blank" href="https://twitter.com/casa_dos_sites">Siga no Twitter</a>
+      <a itemprop="sameAs" title="Youtube" target="_blank" href="https://www.youtube.com/channel/UCXa3po_6rr3CGd0gH2bQ2Gg">Youtube</a>
+      <a itemprop="sameAs" title="Instagram" target="_blank" href="https://instagram.com/casa_dos_sites/">Instagram</a>
+      
+      <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+        <span itemprop="streetAddress">Rua: São xavier 132</span>
+        <span itemprop="postalCode">69093807</span>
+        <span itemprop="addressLocality">Manaus</span>
+        <span itemprop="addressRegion">Amazonas</span>
+        <span itemprop="addressCountry">Brazil</span>
+
+        <div itemscope itemtype="https://schema.org/GeoCoordinates">
+          <meta itemprop="latitude" content="-3.012954" />
+          <meta itemprop="longitude" content="-59.992443" />
+        </div>
+      </div>
+
+      <div itemscope itemtype="http://schema.org/LocalBusiness">
+
+        <span itemprop="name">Casa dos Sites - Criação de Sites em Manaus, Loja Virtual em Manaus, Hospedagem de Sites</span></h1>
+        <span itemprop="description">A casa dos sites e líder em criação de sites em Manaus, criando sites e sistemas online, com isso
+          alcançando o resultado que o cliente deseja e espera.</span>
+        <img itemprop="image" title="Casa dos Sites - Criação de Sites em Manaus, Loja Virtual em Manaus, Hospedagem de Sites"
+          alt="Casa dos Sites - Criação de Sites em Manaus, Loja Virtual em Manaus, Hospedagem de Sites"
+          src="https://www.casadossites.com/imagens_site/logo3.png" />
+        
+        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="streetAddress">Rua: São xavier 132</span>
+        <span itemprop="postalCode">69093807</span>
+        <span itemprop="addressLocality">Manaus</span>
+        <span itemprop="addressRegion">Amazonas</span>
+        <span itemprop="addressCountry">Brazil</span>
+        </div>
+
+        <span itemprop="telephone">+55 92 99248-3522</span>
+        <time itemprop="openingHours" datetime="Mo, Tu, We, Th, Fr 09:00-17:00">8AM - 6PM</time>
+      </div>
+
+
+
+  </section>
+</body>
+
+</html>
